@@ -1,0 +1,806 @@
+[
+    {
+        "prompt": "Say hello to Alice.",
+        "name": "Alice",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Greet Bob.",
+        "name": "Bob",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Please greet Charlie.",
+        "name": "Charlie",
+        "parameters": {
+            "fn_greet": {
+                "name": "Charlie"
+            }
+        }
+    },
+    {
+        "prompt": "Generate a greeting for Diana.",
+        "name": "Diana",
+        "parameters": {
+            "return": "Hello, Diana!"
+        }
+    },
+    {
+        "prompt": "Say hi to Emily.",
+        "name": "Emily",
+        "parameters": {
+            "fn_greet": {
+                "name": "Say hi to Emily."
+            }
+        }
+    },
+    {
+        "prompt": "Create a greeting for Frank.",
+        "name": "Frank",
+        "parameters": {
+            "fn_greet": {
+                "name": "Frank"
+            }
+        }
+    },
+    {
+        "prompt": "Welcome George.",
+        "name": "George",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Greet Hannah.",
+        "name": "Hannah",
+        "parameters": {
+            "fn_greet": {
+                "name": "Hannah"
+            }
+        }
+    },
+    {
+        "prompt": "Please say hello to Isabella.",
+        "name": "Isabella",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Generate a greeting message for Jack.",
+        "name": "Jack",
+        "parameters": {
+            "fn_greet": "Hello, Jack!"
+        }
+    },
+    {
+        "prompt": "Say hello to Kevin.",
+        "name": "Kevin",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Greet Liam.",
+        "name": "Liam",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Create a greeting for Maria.",
+        "name": "Maria",
+        "parameters": {
+            "fn_greet": {
+                "name": "Maria"
+            }
+        }
+    },
+    {
+        "prompt": "Please welcome Nathan.",
+        "name": "Nathan",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Say hi to Olivia.",
+        "name": "Olivia",
+        "parameters": {
+            "fn_greet": {
+                "name": "Say hi to Olivia."
+            }
+        }
+    },
+    {
+        "prompt": "Generate a greeting for Patrick.",
+        "name": "Patrick",
+        "parameters": {
+            "fn_greet": {
+                "name": "Patrick"
+            }
+        }
+    },
+    {
+        "prompt": "Greet Queenie.",
+        "name": "Queenie",
+        "parameters": {
+            "fn_greet": "Greet Queenie."
+        }
+    },
+    {
+        "prompt": "Say hello to Robert.",
+        "name": "Robert",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Welcome Sophia.",
+        "name": "Sophia",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Please greet Thomas.",
+        "name": "Thomas",
+        "parameters": {
+            "fn_greet": {
+                "name": "name",
+                "type": "string"
+            }
+        }
+    },
+    {
+        "prompt": "Replace every digit in \"abc123def456\" with \"#\" using regex \"\\\\d\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "abc123def456",
+            "regex": "\\d",
+            "replacement": "#"
+        }
+    },
+    {
+        "prompt": "Replace all spaces in \"hello world\" with \"_\" using regex \"\\\\s\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "hello world",
+            "regex": "\\s",
+            "replacement": "_"
+        }
+    },
+    {
+        "prompt": "Add 2 and 3.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 2,
+            "b": 3
+        }
+    },
+    {
+        "prompt": "What is 15 plus 27?",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 15,
+            "b": 27
+        }
+    },
+    {
+        "prompt": "Calculate the sum of 100 and 250.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 100,
+            "b": 250
+        }
+    },
+    {
+        "prompt": "Please add -5 and 8.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": -5,
+            "b": 8
+        }
+    },
+    {
+        "prompt": "Sum 3.5 and 4.2.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 3.5,
+            "b": 4.2
+        }
+    },
+    {
+        "prompt": "How much is 999 plus 1?",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": "999",
+            "b": "1"
+        }
+    },
+    {
+        "prompt": "Add 0 and 0.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 0,
+            "b": 0
+        }
+    },
+    {
+        "prompt": "What is -12 + -8?",
+        "name": "add_numbers",
+        "parameters": {
+            "a": -12,
+            "b": -8
+        }
+    },
+    {
+        "prompt": "Compute the addition of 123456 and 654321.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": "123456",
+            "b": "654321"
+        }
+    },
+    {
+        "prompt": "Add 7.75 and -2.25.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 7.75,
+            "b": -2.25
+        }
+    },
+    {
+        "prompt": "Can you add 42 and 58?",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 42,
+            "b": 58
+        }
+    },
+    {
+        "prompt": "Find the sum of 81 and 19.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 81,
+            "b": 19
+        }
+    },
+    {
+        "prompt": "Please calculate 9999999 plus 1.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": "9999999",
+            "b": "1"
+        }
+    },
+    {
+        "prompt": "Add 0.001 and 0.009.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": "0.001",
+            "b": "0.009"
+        }
+    },
+    {
+        "prompt": "What's the total of 314 and 159?",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 314,
+            "b": 159
+        }
+    },
+    {
+        "prompt": "Give me the sum of 50 and -25.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 50,
+            "b": -25
+        }
+    },
+    {
+        "prompt": "Calculate 1.5 plus 2.5.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": "1.5",
+            "b": "2.5"
+        }
+    },
+    {
+        "prompt": "Add -1000 and 999.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": -1000,
+            "b": 999
+        }
+    },
+    {
+        "prompt": "What is 73 + 27?",
+        "name": "73",
+        "parameters": {
+            "a": "73",
+            "b": "27"
+        }
+    },
+    {
+        "prompt": "Find the result of adding 888 and 112.",
+        "name": "fn_add_numbers",
+        "parameters": {
+            "a": 888,
+            "b": 112
+        }
+    },
+    {
+        "prompt": "Reverse the string \"hello\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "hello"
+        }
+    },
+    {
+        "prompt": "Reverse \"OpenAI\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "OpenAI"
+        }
+    },
+    {
+        "prompt": "Flip the string \"abcdef\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "abcdef"
+        }
+    },
+    {
+        "prompt": "Reverse the text \"racecar\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "racecar"
+        }
+    },
+    {
+        "prompt": "Reverse \"12345\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "12345"
+        }
+    },
+    {
+        "prompt": "Reverse the string \"Hello, World!\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "Hello, World!"
+        }
+    },
+    {
+        "prompt": "Reverse \"42 Network\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "42 Network"
+        }
+    },
+    {
+        "prompt": "Flip \"Python\" backwards.",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "Python"
+        }
+    },
+    {
+        "prompt": "Reverse \"!@#$%^&*\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "!@#$%^&*"
+        }
+    },
+    {
+        "prompt": "Reverse the text \"ChatGPT\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "ChatGPT"
+        }
+    },
+    {
+        "prompt": "Reverse the string \"madam\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "madam"
+        }
+    },
+    {
+        "prompt": "Reverse \"Lorem ipsum\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "Lorem ipsum"
+        }
+    },
+    {
+        "prompt": "Flip \"A man a plan\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "plan a man A"
+        }
+    },
+    {
+        "prompt": "Reverse \"\u3053\u3093\u306b\u3061\u306f\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "\u3053\u3093\u306b\u3061\u306f"
+        }
+    },
+    {
+        "prompt": "Reverse the string \"\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": ""
+        }
+    },
+    {
+        "prompt": "Reverse \"2026\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "2026"
+        }
+    },
+    {
+        "prompt": "Reverse \"C programming\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "programming"
+        }
+    },
+    {
+        "prompt": "Reverse \"banana\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "banana"
+        }
+    },
+    {
+        "prompt": "Reverse \"The quick brown fox\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "The quick brown fox"
+        }
+    },
+    {
+        "prompt": "Reverse \"\ud83d\ude00\ud83d\ude03\ud83d\ude04\ud83d\ude01\".",
+        "name": "fn_reverse_string",
+        "parameters": {
+            "s": "\ud83d\ude00\ud83d\ude03\ud83d\ude04\ud83d\ude01"
+        }
+    },
+    {
+        "prompt": "Find the square root of 4.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 4
+        }
+    },
+    {
+        "prompt": "Calculate the square root of 81.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 81
+        }
+    },
+    {
+        "prompt": "Compute \u221a144.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 144
+        }
+    },
+    {
+        "prompt": "What is the square root of 2?",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 2
+        }
+    },
+    {
+        "prompt": "Square root of 0.",
+        "name": "Square root",
+        "parameters": {
+            "a": 0
+        }
+    },
+    {
+        "prompt": "Find \u221a1000000.",
+        "name": "sqrt",
+        "parameters": {
+            "a": 1000000
+        }
+    },
+    {
+        "prompt": "Calculate the square root of 0.25.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 0.25
+        }
+    },
+    {
+        "prompt": "Compute the square root of 49.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 49
+        }
+    },
+    {
+        "prompt": "Find the square root of 625.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 625
+        }
+    },
+    {
+        "prompt": "Calculate \u221a1.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 1
+        }
+    },
+    {
+        "prompt": "What is the square root of 256?",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 256
+        }
+    },
+    {
+        "prompt": "Square root of 99980001.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": "99980001"
+        }
+    },
+    {
+        "prompt": "Find \u221a9.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 9
+        }
+    },
+    {
+        "prompt": "Calculate the square root of 12.25.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 12.25
+        }
+    },
+    {
+        "prompt": "Compute the square root of 500.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 500
+        }
+    },
+    {
+        "prompt": "Find the square root of 36.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 36
+        }
+    },
+    {
+        "prompt": "Square root of 169.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 169
+        }
+    },
+    {
+        "prompt": "Calculate \u221a1024.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 1024
+        }
+    },
+    {
+        "prompt": "Find the square root of 0.0001.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": "0.0001"
+        }
+    },
+    {
+        "prompt": "Compute \u221a2500.",
+        "name": "fn_get_square_root",
+        "parameters": {
+            "a": 2500
+        }
+    },
+    {
+        "prompt": "Replace every vowel in \"OpenAI\" using regex \"[AEIOUaeiou]\" with \"*\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "OpenAI",
+            "regex": "[AEIOUaeiou]",
+            "replacement": "*"
+        }
+    },
+    {
+        "prompt": "Replace \"cat\" with \"dog\" in \"cat cat\" using regex \"cat\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "cat cat",
+            "regex": "cat",
+            "replacement": "dog"
+        }
+    },
+    {
+        "prompt": "Replace all commas in \"a,b,c,d\" with semicolons using regex \",\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "a,b,c,d",
+            "regex": ",",
+            "replacement": ";"
+        }
+    },
+    {
+        "prompt": "Replace repeated spaces in \"a   b    c\" with a single space using regex \"\\\\s+\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "a   b    c",
+            "regex": "\\s+",
+            "replacement": " "
+        }
+    },
+    {
+        "prompt": "Replace all lowercase letters in \"ABCabc\" with \"x\" using regex \"[a-z]\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "ABCabc",
+            "regex": "[a-z]",
+            "replacement": "x"
+        }
+    },
+    {
+        "prompt": "Replace all uppercase letters in \"Hello WORLD\" using regex \"[A-Z]\" with \"?\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "Hello WORLD",
+            "regex": "[A-Z]",
+            "replacement": "?"
+        }
+    },
+    {
+        "prompt": "Replace every occurrence of \"foo\" with \"bar\" in \"foo foo baz\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "foo foo baz",
+            "regex": "foo",
+            "replacement": "bar"
+        }
+    },
+    {
+        "prompt": "Replace all periods in \"www.example.com\" using regex \"\\\\.\" with \"-\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "www.example.com",
+            "regex": "\\.",
+            "replacement": "-"
+        }
+    },
+    {
+        "prompt": "Replace all digits in \"Phone: 123456789\" using regex \"\\\\d\" with \"X\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "Phone: 123456789",
+            "regex": "\\d",
+            "replacement": "X"
+        }
+    },
+    {
+        "prompt": "Replace every \"a\" in \"banana\" with \"o\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "banana",
+            "regex": "a",
+            "replacement": "o"
+        }
+    },
+    {
+        "prompt": "Replace all tabs in \"a\\tb\\tc\" using regex \"\\\\t\" with a space.",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "a\tb\tc",
+            "regex": "\\t",
+            "replacement": " "
+        }
+    },
+    {
+        "prompt": "Replace every newline in \"one\\ntwo\\nthree\" using regex \"\\\\n\" with a space.",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "one\ntwo\nthree",
+            "regex": "\\n",
+            "replacement": " "
+        }
+    },
+    {
+        "prompt": "Replace all hyphens in \"2026-07-09\" using regex \"-\" with \"/\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "2026-07-09",
+            "regex": "-",
+            "replacement": "/"
+        }
+    },
+    {
+        "prompt": "Replace every occurrence of \"42\" in \"42 is the answer. 42!\" with \"forty-two\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "42 is the answer. 42!",
+            "regex": "42",
+            "replacement": "forty-two"
+        }
+    },
+    {
+        "prompt": "Replace all punctuation in \"Hello, world!\" using regex \"[[:punct:]]\" with \"\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "Hello, world!",
+            "regex": "[[:punct:]]",
+            "replacement": ""
+        }
+    },
+    {
+        "prompt": "Replace multiple exclamation marks in \"Wow!!! Amazing!!\" using regex \"!+\" with \"!\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "Wow!!! Amazing!!",
+            "regex": "!+",
+            "replacement": "!"
+        }
+    },
+    {
+        "prompt": "Replace every occurrence of \"test\" in \"test testing tested\" with \"exam\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "test testing tested",
+            "regex": "test",
+            "replacement": "exam"
+        }
+    },
+    {
+        "prompt": "Replace every word in \"one two three\" using regex \"\\\\w+\" with \"word\".",
+        "name": "fn_substitute_string_with_regex",
+        "parameters": {
+            "source_string": "one two three",
+            "regex": "\\w+",
+            "replacement": "word"
+        }
+    }
+]
